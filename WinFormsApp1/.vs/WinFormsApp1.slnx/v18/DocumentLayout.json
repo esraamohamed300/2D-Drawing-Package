@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\clippingalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\clippingalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\clipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\clipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0774B3-DB74-42C9-91EF-A5EC29D780DC}|WinFormsApp1\\WinFormsApp1.csproj|D:\\University\\Computer Graphics Project\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB0774B3-DB74-42C9-91EF-A5EC29D780DC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\hermitecurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\hermitecurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\parametricline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\parametricline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\bresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\bresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\university\\computer graphics project\\winformsapp1\\winformsapp1\\algorithms\\dda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithms\\dda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClippingAlgorithms.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\ClippingAlgorithms.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\ClippingAlgorithms.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\ClippingAlgorithms.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\ClippingAlgorithms.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAowHYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T00:44:43.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bonus.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\Bonus.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\Bonus.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\Bonus.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\Bonus.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAJ0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:25:15.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clipping.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\Clipping.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\Clipping.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\Clipping.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\Clipping.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwKYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T22:45:22.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T21:50:58.489Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HermiteCurve.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\HermiteCurve.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\HermiteCurve.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\HermiteCurve.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\HermiteCurve.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T19:05:42.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParametricLine.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\ParametricLine.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\ParametricLine.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\ParametricLine.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\ParametricLine.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:22:03.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bresenham.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\Bresenham.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\Bresenham.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\Bresenham.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\Bresenham.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:22:03.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:59:21.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAADcDAAAAAAAAAAAqwIcDAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:07:59.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AgIAAPcDAAAAAAAAAAAAAEIEAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:58:48.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DDA.cs",
+              "DocumentMoniker": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\DDA.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithms\\DDA.cs",
+              "ToolTip": "D:\\University\\Computer Graphics Project\\WinFormsApp1\\WinFormsApp1\\Algorithms\\DDA.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithms\\DDA.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:49:43.372Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
