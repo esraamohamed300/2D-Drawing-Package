@@ -4,12 +4,12 @@ using System.Drawing;
 
 namespace WinFormsApp1.Algorithms
 {
-    // =========================================================================
+
     //  Shared helpers
-    // =========================================================================
+
     internal static class ClippingHelpers
     {
-        /// <summary>Draw a filled 5×5 dot on the bitmap.</summary>
+        /// Draw a filled 5×5 dot on the bitmap.
         public static void DrawDot(Bitmap canvas, int x, int y, Color color, int size = 5)
         {
             int half = size / 2;
@@ -22,7 +22,7 @@ namespace WinFormsApp1.Algorithms
                 }
         }
 
-        /// <summary>Draw a rectangle border using DDA lines.</summary>
+        /// Draw a rectangle border using DDA lines.
         public static void DrawRect(Bitmap canvas, int xmin, int ymin, int xmax, int ymax, Color color)
         {
             DDA.Draw(canvas, xmin, ymin, xmax, ymin, color);
@@ -31,20 +31,20 @@ namespace WinFormsApp1.Algorithms
             DDA.Draw(canvas, xmin, ymax, xmin, ymin, color);
         }
 
-        /// <summary>Draw a circle border using Bresenham.</summary>
+        /// Draw a circle border using Bresenham.
         public static void DrawCircle(Bitmap canvas, int cx, int cy, int r, Color color)
             => BresenhamCircle.Draw(canvas, cx, cy, r, color);
     }
 
-    // =========================================================================
+
     //  RECTANGLE — Point Clipping
-    // =========================================================================
+
     public static class RectPointClipping
     {
-        /// <summary>
+
         /// Tests whether (px,py) is inside the rectangle [xmin,xmax]×[ymin,ymax].
         /// Draws a green dot if inside, red dot if outside, and the rect border.
-        /// </summary>
+
         public static bool Clip(Bitmap canvas,
                                 int px, int py,
                                 int xmin, int ymin, int xmax, int ymax)
@@ -63,13 +63,13 @@ namespace WinFormsApp1.Algorithms
         }
     }
 
-    // =========================================================================
+
     //  RECTANGLE — Line Clipping  (Cohen-Sutherland)
-    // =========================================================================
+
     public static class RectLineClipping
     {
         // Outcodes
-        private const int INSIDE = 0, LEFT = 1, RIGHT = 2, BOTTOM = 4, TOP = 8;
+        private const int INSIDE = 0, LEFT = 1, RIGHT = 2, BOTTOM = 4, TOP = 8; // 1000
 
         private static int ComputeOutCode(double x, double y,
                                           int xmin, int ymin, int xmax, int ymax)
@@ -82,11 +82,11 @@ namespace WinFormsApp1.Algorithms
             return code;
         }
 
-        /// <summary>
+
         /// Clips the segment (x1,y1)-(x2,y2) against the rectangle.
         /// Draws the original segment in gray, the clipped segment in green,
         /// or a red cross if the segment is fully outside.
-        /// </summary>
+
         public static bool Clip(Bitmap canvas,
                                 int x1, int y1, int x2, int y2,
                                 int xmin, int ymin, int xmax, int ymax)
@@ -102,8 +102,8 @@ namespace WinFormsApp1.Algorithms
 
             double cx1 = x1, cy1 = y1, cx2 = x2, cy2 = y2;
 
-            int out1 = ComputeOutCode(cx1, cy1, xmin, ymin, xmax, ymax);
-            int out2 = ComputeOutCode(cx2, cy2, xmin, ymin, xmax, ymax);
+            int out1 = ComputeOutCode(cx1, cy1, xmin, ymin, xmax, ymax);//1000
+            int out2 = ComputeOutCode(cx2, cy2, xmin, ymin, xmax, ymax);//1000
 
             while (true)
             {
@@ -139,7 +139,7 @@ namespace WinFormsApp1.Algorithms
                     yi = cy1 + (cy2 - cy1) * (xmax - cx1) / (cx2 - cx1);
                     xi = xmax;
                 }
-                else  // LEFT
+                else
                 {
                     yi = cy1 + (cy2 - cy1) * (xmin - cx1) / (cx2 - cx1);
                     xi = xmin;
@@ -151,9 +151,9 @@ namespace WinFormsApp1.Algorithms
         }
     }
 
-    // =========================================================================
-    //  RECTANGLE — Polygon Clipping  (Sutherland-Hodgman)
-    // =========================================================================
+
+    //  RECTANGLE — Polygon Clipping  
+
     public static class RectPolygonClipping
     {
         private static List<PointF> ClipAgainstEdge(List<PointF> poly,
@@ -188,13 +188,7 @@ namespace WinFormsApp1.Algorithms
             return new PointF(a.X + t * (b.X - a.X), ye);
         }
 
-        /// <summary>
-        /// Clips the polygon against the rectangle and draws:
-        ///   • Original polygon in gray (drawn first / underneath)
-        ///   • Clipped polygon edges in green (drawn second)
-        ///   • Rectangle CLIPPING WINDOW in blue (drawn LAST — always on top, never overwritten)
-        /// Returns the clipped vertex list (may be empty if fully outside).
-        /// </summary>
+
         public static List<PointF> Clip(Bitmap canvas,
                                         List<Point> polygon,
                                         int xmin, int ymin, int xmax, int ymax)
@@ -202,7 +196,7 @@ namespace WinFormsApp1.Algorithms
             if (xmin > xmax) (xmin, xmax) = (xmax, xmin);
             if (ymin > ymax) (ymin, ymax) = (ymax, ymin);
 
-            // 1. Draw original polygon in gray (background layer)
+            // 1. Draw original polygon 
             for (int i = 0; i < polygon.Count; i++)
             {
                 Point a = polygon[i], b = polygon[(i + 1) % polygon.Count];
@@ -241,15 +235,15 @@ namespace WinFormsApp1.Algorithms
         }
     }
 
-    // =========================================================================
+
     //  SQUARE — Point Clipping
-    // =========================================================================
+
     public static class SquarePointClipping
     {
-        /// <summary>
+
         /// Clips point (px,py) against a square centred at (cx,cy) with half-side = half.
         /// The square is the largest square that fits the given half-length symmetrically.
-        /// </summary>
+        /// 
         public static bool Clip(Bitmap canvas,
                                 int px, int py,
                                 int cx, int cy, int half)
@@ -266,15 +260,15 @@ namespace WinFormsApp1.Algorithms
         }
     }
 
-    // =========================================================================
-    //  SQUARE — Line Clipping  (Cohen-Sutherland on a square window)
-    // =========================================================================
+
+    //  SQUARE — Line Clipping  
+
     public static class SquareLineClipping
     {
-        /// <summary>
+        /// 
         /// Clips the segment against a square centred at (cx,cy) with half-side = half.
         /// Internally re-uses RectLineClipping.
-        /// </summary>
+        /// 
         public static bool Clip(Bitmap canvas,
                                 int x1, int y1, int x2, int y2,
                                 int cx, int cy, int half)
@@ -291,15 +285,15 @@ namespace WinFormsApp1.Algorithms
         }
     }
 
-    // =========================================================================
+
     //  CIRCLE — Point Clipping
-    // =========================================================================
+
     public static class CirclePointClipping
     {
-        /// <summary>
+        /// 
         /// Tests whether (px,py) is inside the circle centred at (cx,cy) with radius r.
         /// Draws the circle border in orange, green dot if inside, red if outside.
-        /// </summary>
+        /// 
         public static bool Clip(Bitmap canvas,
                                 int px, int py,
                                 int cx, int cy, int r)
@@ -314,15 +308,15 @@ namespace WinFormsApp1.Algorithms
         }
     }
 
-    // =========================================================================
+
     //  CIRCLE — Line Clipping  (quadratic parametric)
-    // =========================================================================
+
     public static class CircleLineClipping
     {
-        /// <summary>
+        /// 
         /// Clips the segment (x1,y1)-(x2,y2) against the circle (cx,cy,r).
         /// Draws original segment in gray, visible portion in green.
-        /// </summary>
+        /// 
         public static bool Clip(Bitmap canvas,
                                 int x1, int y1, int x2, int y2,
                                 int cx, int cy, int r)
@@ -334,7 +328,7 @@ namespace WinFormsApp1.Algorithms
 
             double dx = x2 - x1, dy = y2 - y1;
 
-            // P(t) = P1 + t*(P2-P1),  substitute into (x-cx)²+(y-cy)²=r²
+            // P(t) = P1 + t*(P2-P1),  substitute into (x-cx)تربيع+ (y-cy) تربيع= rتربيع
             double a = dx * dx + dy * dy;
             double b = 2.0 * (dx * (x1 - cx) + dy * (y1 - cy));
             double c = (x1 - cx) * (x1 - cx) + (y1 - cy) * (y1 - cy) - (double)r * r;

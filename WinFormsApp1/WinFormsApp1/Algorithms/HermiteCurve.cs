@@ -16,7 +16,7 @@ namespace WinFormsApp1.Algorithms
                 v = new double[] { a, b, c, d };
             }
 
-            // FIX: always ensure v is initialized before accessing
+            // always ensure v is initialized before accessing
             public double this[int i]
             {
                 get
